@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "fio": "first doctor",
+    "depart": "cardiology",
+    "headOfDepartment": true
+  },
+  {
+    "id": 2,
+    "fio": "second doctor",
+    "depart": "surgical",
+    "headOfDepartment": false
+  },
+  {
+    "id": 3,
+    "fio": "first nurse",
+    "depart": "cardiology"
+  },
+  {
+    "id": 4,
+    "fio": "second nurse",
+    "depart": "surgical"
+  }
+]
