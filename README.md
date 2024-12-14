@@ -1,4 +1,8 @@
 # test-app
+# Запуск одной командой
+```
+docker-compose up -d
+```
 
 ## Project setup
 ```
