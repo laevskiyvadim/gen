@@ -94,7 +94,7 @@ import {
   },
 })
 export default class NursesView extends Vue {
-  @Mutation("PersonalModule/removePerson") removePerson!: (fio: string) => void;
+  @Mutation("PersonalModule/removePerson") removePerson!: (id: number) => void;
   @Mutation("PersonalModule/addPerson") addPerson!: (
     v: Omit<Nurse, "id">
   ) => void;

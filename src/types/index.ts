@@ -15,15 +15,14 @@ export type Doctor = BaseUser & {
 
 export type Nurse = BaseUser;
 
-export type DoctorForm = {
+export type BaseForm = {
   id?: number;
   fio: string;
   depart: Department;
+};
+
+export type DoctorForm = BaseForm & {
   headOfDepartment: boolean;
 };
 
-export type NurseForm = {
-  id?: number;
-  fio: string;
-  depart: Department;
-};
+export type NurseForm = BaseForm;
