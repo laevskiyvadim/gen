@@ -2,6 +2,8 @@
 # Запуск одной командой
 ```
 docker-compose up -d
+
+проект запуститься на  localhost:3333
 ```
 
 ## Project setup
